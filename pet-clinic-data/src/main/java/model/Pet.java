@@ -1,4 +1,4 @@
-package me.inassar.sfgpetclinic.model;
+package model;
 
 import java.time.LocalDate;
 
