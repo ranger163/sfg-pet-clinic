@@ -5,7 +5,7 @@ package me.inassar.sfgpetclinic.model;
  * Date: 16 May, 2020
  * Time: 12:37 PM
  */
-public class PetType {
+public class PetType extends BaseEntity{
 
     private String name;
 

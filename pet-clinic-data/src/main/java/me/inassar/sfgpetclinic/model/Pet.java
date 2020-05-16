@@ -7,7 +7,7 @@ import java.time.LocalDate;
  * Date: 16 May, 2020
  * Time: 12:36 PM
  */
-public class Pet {
+public class Pet extends BaseEntity{
 
     private PetType petType;
     private Owner owner;
