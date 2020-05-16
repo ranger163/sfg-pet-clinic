@@ -1,4 +1,4 @@
-package model;
+package me.inassar.sfgpetclinic.model;
 
 /**
  * Created by Ahmed Nassar.
