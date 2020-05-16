@@ -5,5 +5,5 @@ package me.inassar.sfgpetclinic.model;
  * Date: 16 May, 2020
  * Time: 12:36 PM
  */
-public class Owner  extends Person{
+public class Owner extends Person {
 }
