@@ -2,7 +2,6 @@ package me.inassar.sfgpetclinic.services.map;
 
 import me.inassar.sfgpetclinic.model.Owner;
 import me.inassar.sfgpetclinic.services.CrudService;
-import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
@@ -11,7 +10,6 @@ import java.util.Set;
  * Date: 22 May, 2020
  * Time: 2:55 PM
  */
-@Service
 public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements CrudService<Owner, Long> {
 
     @Override

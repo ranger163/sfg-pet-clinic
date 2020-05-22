@@ -2,7 +2,6 @@ package me.inassar.sfgpetclinic.services.map;
 
 import me.inassar.sfgpetclinic.model.Vet;
 import me.inassar.sfgpetclinic.services.CrudService;
-import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
@@ -11,7 +10,6 @@ import java.util.Set;
  * Date: 22 May, 2020
  * Time: 3:03 PM
  */
-@Service
 public class VetServiceMap extends AbstractMapService<Vet, Long> implements CrudService<Vet, Long> {
     @Override
     public Set<Vet> findAll() {
