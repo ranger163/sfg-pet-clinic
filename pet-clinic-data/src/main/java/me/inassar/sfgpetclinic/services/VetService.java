@@ -8,5 +8,4 @@ import me.inassar.sfgpetclinic.model.Vet;
  * Time: 5:13 PM
  */
 public interface VetService extends CrudService<Vet, Long> {
-
 }

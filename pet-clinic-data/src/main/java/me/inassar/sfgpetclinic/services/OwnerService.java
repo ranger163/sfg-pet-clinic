@@ -8,6 +8,5 @@ import me.inassar.sfgpetclinic.model.Owner;
  * Time: 5:09 PM
  */
 public interface OwnerService extends CrudService<Owner, Long> {
-
     Owner findByLastName(String lastName);
 }
